@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cleveland Security Cameras Installation | RemoteCCTVService.com</title>
-    <meta name="description" content="Expert Cleveland security cameras installation. Professional CCTV setup, remote support, and 24/7 surveillance. Call (216) 333-8245!">
+    <title>Cleveland Security Cameras Installation | Cleveland Security Cameras</title>
+    <meta name="description" content="Top Cleveland security cameras installation. Expert CCTV setup, remote support, and 24/7 surveillance. Call (216) 333-8245!">
     <meta name="keywords" content="Cleveland security cameras installation, security camera installation Cleveland, CCTV installation Cleveland, remote CCTV service, security camera repair">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="RemoteCCTVService.com">
+    <meta name="author" content="Cleveland Security Cameras">
     <!-- Open Graph for Social Media -->
-    <meta property="og:title" content="Cleveland Security Cameras Installation | RemoteCCTVService.com">
-    <meta property="og:description" content="Top-rated Cleveland security cameras installation services. Get professional CCTV setup and remote support. Call (216) 333-8245 for a free quote!">
-    <meta property="og:image" content="https://remotecctvservice.com/images/security-camera.jpg">
-    <meta property="og:url" content="https://remotecctvservice.com">
+    <meta property="og:title" content="Cleveland Security Cameras Installation | Cleveland Security Cameras">
+    <meta property="og:description" content="Premier Cleveland security cameras installation and remote CCTV support. Call (216) 333-8245 for expert surveillance solutions!">
+    <meta property="og:url" content="https://clevelandsecuritycameras.com">
     <meta property="og:type" content="website">
     <!-- Structured Data for LocalBusiness -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "RemoteCCTVService.com",
+        "name": "Cleveland Security Cameras",
         "telephone": "(216) 333-8245",
         "address": {
             "@type": "PostalAddress",
@@ -28,35 +27,36 @@
             "postalCode": "44101",
             "addressCountry": "US"
         },
-        "description": "Professional Cleveland security cameras installation and remote CCTV support services.",
-        "url": "https://remotecctvservice.com",
-        "image": "https://remotecctvservice.com/images/security-camera.jpg",
+        "description": "Expert Cleveland security cameras installation and remote CCTV support for homes and businesses.",
+        "url": "https://clevelandsecuritycameras.com",
         "sameAs": [
-            "https://www.facebook.com/remotecctvservice",
-            "https://www.twitter.com/remotecctvservice"
+            "https://www.facebook.com/clevelandsecuritycameras",
+            "https://www.twitter.com/clevelandsecuritycameras"
         ]
     }
     </script>
-    <!-- CSS (Inspired by GoDaddy's clean, modern design) -->
+    <!-- CSS (GoDaddy-inspired with Security Animation) -->
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
         }
         body {
             line-height: 1.6;
             color: #333;
+            overflow-x: hidden;
         }
         /* Header */
         header {
             background: #000;
             color: #fff;
-            padding: 10px 20px;
+            padding: 15px 20px;
             position: sticky;
             top: 0;
             z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         nav {
             display: flex;
@@ -66,14 +66,16 @@
             margin: 0 auto;
         }
         .logo {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
+            letter-spacing: 1px;
         }
         .nav-links a {
             color: #fff;
             text-decoration: none;
-            margin-left: 20px;
+            margin-left: 25px;
             font-size: 16px;
+            transition: color 0.3s;
         }
         .nav-links a:hover {
             color: #00a4b4;
@@ -81,86 +83,150 @@
         .phone {
             color: #00a4b4;
             font-weight: bold;
+            font-size: 18px;
         }
-        /* Hero Section */
+        /* Hero Section with Animation */
         .hero {
-            background: url('https://via.placeholder.com/1200x600?text=Security+Camera') no-repeat center/cover;
+            background: linear-gradient(135deg, #00a4b4, #004d57);
             color: #fff;
             text-align: center;
-            padding: 100px 20px;
+            padding: 120px 20px;
+            position: relative;
+            overflow: hidden;
         }
         .hero h1 {
-            font-size: 48px;
+            font-size: 50px;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         .hero p {
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .cta-button {
-            background: #00a4b4;
-            color: #fff;
-            padding: 15px 30px;
+            background: #fff;
+            color: #00a4b4;
+            padding: 15px 35px;
             text-decoration: none;
             border-radius: 5px;
             font-size: 18px;
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
         }
         .cta-button:hover {
-            background: #008a94;
+            background: #00a4b4;
+            color: #fff;
+        }
+        /* Security Animation */
+        .security-animation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.3;
+        }
+        .camera {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5A7.5 7.5 0 0 0 4.5 12a7.5 7.5 0 0 0 7.5 7.5 7.5 7.5 0 0 0 7.5-7.5A7.5 7.5 0 0 0 12 4.5z"/></svg>') no-repeat center;
+            animation: rotateCamera 10s linear infinite;
+        }
+        .lock {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6 3H6v-2h12v2m0-9H6V6a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v5z"/></svg>') no-repeat center;
+            animation: floatLock 8s ease-in-out infinite;
+        }
+        .shield {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>') no-repeat center;
+            animation: pulseShield 6s ease-in-out infinite;
+        }
+        @keyframes rotateCamera {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes floatLock {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes pulseShield {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
         }
         /* Services Section */
         .services {
             max-width: 1200px;
-            margin: 50px auto;
+            margin: 60px auto;
             text-align: center;
         }
         .services h2 {
-            font-size: 36px;
+            font-size: 40px;
             margin-bottom: 30px;
+            color: #00a4b4;
         }
         .service-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
         }
         .service-item {
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .service-item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        /* Form Section */
-        .contact {
+            padding: 25px;
             background: #f9f9f9;
-            padding: 50px 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .service-item h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        /* Contact Form Section */
+        .contact {
+            background: #fff;
+            padding: 60px 20px;
             text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
         .contact h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
+            font-size: 40px;
+            margin-bottom: 25px;
+            color: #00a4b4;
         }
         .contact form {
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
         }
         .contact input, .contact textarea {
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             margin: 10px 0;
-            border: 1px solid #ddd;
+            border: 1px solid #ccc;
             border-radius: 5px;
+            font-size: 16px;
         }
         .contact button {
             background: #00a4b4;
             color: #fff;
-            padding: 15px 30px;
+            padding: 15px 40px;
             border: none;
             border-radius: 5px;
+            font-size: 18px;
             cursor: pointer;
+            transition: background 0.3s;
         }
         .contact button:hover {
             background: #008a94;
@@ -168,37 +234,53 @@
         /* Testimonials Section */
         .testimonials {
             max-width: 1200px;
-            margin: 50px auto;
+            margin: 60px auto;
             text-align: center;
         }
         .testimonials h2 {
-            font-size: 36px;
+            font-size: 40px;
             margin-bottom: 30px;
+            color: #00a4b4;
         }
         .testimonial-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .testimonial-item {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
         }
         /* Footer */
         footer {
             background: #000;
             color: #fff;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
         }
         footer a {
             color: #00a4b4;
             text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
         /* Responsive Design */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 32px;
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 16px;
             }
             .nav-links a {
-                margin-left: 10px;
+                margin-left: 15px;
                 font-size: 14px;
+            }
+            .phone {
+                font-size: 16px;
             }
         }
     </style>
@@ -207,7 +289,7 @@
     <!-- Header -->
     <header>
         <nav>
-            <div class="logo">RemoteCCTVService.com</div>
+            <div class="logo">Cleveland Security Cameras</div>
             <div class="nav-links">
                 <a href="#services">Services</a>
                 <a href="#contact">Contact</a>
@@ -217,11 +299,19 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Animation -->
     <section class="hero">
+        <div class="security-animation">
+            <div class="camera" style="top: 10%; left: 10%;"></div>
+            <div class="camera" style="top: 20%; right: 15%;"></div>
+            <div class="lock" style="top: 50%; left: 20%;"></div>
+            <div class="lock" style="bottom: 20%; right: 25%;"></div>
+            <div class="shield" style="top: 30%; left: 50%;"></div>
+            <div class="shield" style="bottom: 10%; right: 10%;"></div>
+        </div>
         <h1>Cleveland Security Cameras Installation Experts</h1>
-        <p>Protect your home or business with professional CCTV installation and remote support in Cleveland. Get a free quote today!</p>
-        <a href="#contact" class="cta-button">Request a Free Quote</a>
+        <p>Secure your home or business with professional CCTV installation and remote support in Cleveland. Trust us for 24/7 surveillance solutions!</p>
+        <a href="#contact" class="cta-button">Get a Free Quote Now</a>
     </section>
 
     <!-- Services Section -->
@@ -229,26 +319,23 @@
         <h2>Our Cleveland Security Cameras Installation Services</h2>
         <div class="service-grid">
             <div class="service-item">
-                <img src="https://via.placeholder.com/250x150?text=CCTV+Installation" alt="Cleveland CCTV installation">
                 <h3>Professional CCTV Setup</h3>
-                <p>Expert installation of high-resolution security cameras for homes and businesses in Cleveland.</p>
+                <p>Expert Cleveland security cameras installation for homes and businesses, ensuring high-quality surveillance and peace of mind.</p>
             </div>
             <div class="service-item">
-                <img src="https://via.placeholder.com/250x150?text=Remote+Support" alt="Remote CCTV support Cleveland">
                 <h3>Remote Support & Repair</h3>
-                <p>Online diagnostics and maintenance for your CCTV systems, ensuring 24/7 security.</p>
+                <p>Fast online diagnostics and maintenance for your CCTV systems, keeping your Cleveland property secure 24/7.</p>
             </div>
             <div class="service-item">
-                <img src="https://via.placeholder.com/250x150?text=Custom+Systems" alt="Custom security camera systems Cleveland">
                 <h3>Custom Surveillance Solutions</h3>
-                <p>Tailored security camera systems designed for your specific needs in Cleveland, OH.</p>
+                <p>Tailored security camera systems designed for your unique needs in Cleveland, OH, with expert installation.</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Form Section -->
     <section class="contact" id="contact">
-        <h2>Contact Us for Cleveland Security Cameras Installation</h2>
+        <h2>Contact Cleveland Security Cameras Today</h2>
         <form action="https://formspree.io/f/mnnvvnnb" method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required aria-label="Your name">
@@ -258,7 +345,7 @@
             <input type="tel" id="phone" name="phone" placeholder="(216) 333-8245" aria-label="Your phone number">
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="5" required aria-label="Your message"></textarea>
-            <button type="submit">Get a Free Quote</button>
+            <button type="submit">Request a Free Quote</button>
         </form>
     </section>
 
@@ -267,11 +354,11 @@
         <h2>What Our Cleveland Clients Say</h2>
         <div class="testimonial-grid">
             <div class="testimonial-item">
-                <p>"RemoteCCTVService.com installed our security cameras in Cleveland with professionalism. Highly recommend!"</p>
+                <p>"Cleveland Security Cameras installed our CCTV system flawlessly. Their remote support is top-notch!"</p>
                 <p><strong>- John D., Cleveland, OH</strong></p>
             </div>
             <div class="testimonial-item">
-                <p>"Their remote support fixed our CCTV issues quickly. Best security camera service in Cleveland!"</p>
+                <p>"Fast, professional service for our business security cameras in Cleveland. Highly recommend!"</p>
                 <p><strong>- Sarah M., Cleveland Heights</strong></p>
             </div>
         </div>
@@ -279,15 +366,32 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 RemoteCCTVService.com | Cleveland Security Cameras Installation | Call <a href="tel:2163338245">(216) 333-8245</a></p>
+        <p>© 2025 Cleveland Security Cameras | Expert Security Cameras Installation | Call <a href="tel:2163338245">(216) 333-8245</a></p>
         <p><a href="#services">Services</a> | <a href="#contact">Contact</a> | <a href="#about">About</a></p>
     </footer>
 
-    <!-- JavaScript for Form Submission Feedback -->
+    <!-- JavaScript for Interactivity -->
     <script>
+        // Smooth Scrolling for Navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form Submission Feedback
         document.querySelector('form').addEventListener('submit', function(e) {
-            // Optional: Add client-side validation or feedback
-            alert('Thank you for your request! We’ll contact you soon.');
+            alert('Thank you for your request! Our Cleveland Security Cameras team will contact you soon.');
+        });
+
+        // Dynamic Animation Positioning
+        const cameras = document.querySelectorAll('.camera, .lock, .shield');
+        cameras.forEach(el => {
+            el.style.left = `${Math.random() * 80 + 10}%`;
+            el.style.top = `${Math.random() * 60 + 20}%`;
         });
     </script>
 </body>
